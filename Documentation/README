@@ -1,2 +1,39 @@
-type where you go the file
-what you can do with the file
+## **Dataset Overview**
+This dataset tracks coral bleaching events globally, including:
+- **Environmental variables** (sea temperature, salinity, etc.)
+- **Bleaching severity metrics** (% affected, mortality rates)
+- **Geospatial data** (lat/long, reef IDs, regions)
+
+### **Key Features**
+- **Time coverage**: [YYYY]–[YYYY]  
+- **Geographic coverage**: [List regions, e.g., "Global (tropical reefs)"]
+- **Update frequency**: [e.g., "Annually" or "Static dataset"]
+
+---
+
+## **How to Use This Data**
+### 1. **Data Dictionary**
+   - See [`data_dictionary.md`](data_dictionary.md) for column descriptions, units, and allowable values.
+
+### 2. **Metadata**
+   - Technical details (e.g., coordinate reference system, missing data codes) are in [`metadata.json`](metadata.json).
+
+### 3. **Methodology**
+   - Review [`methodology.pdf`](methodology.pdf) for protocols on data collection, cleaning, and quality control.
+
+### 4. **Citations & Licensing**
+   - **Attribution**: Cite this dataset as:  
+     > [Author(s)]. (Year). *Coral Bleaching Dataset*. [DOI/URL].  
+   - **License**: Usage terms are in [`references/licenses.md`](references/licenses.md).
+
+---
+
+## **Support**
+- **Issues**: Report data problems or request clarifications via [GitHub Issues](https://github.com/petelg82/Coral-Bleaching-Data/issues).  
+- **Contact**: For urgent inquiries, email [your contact]@[domain].com.
+
+---
+
+## **Related Resources**
+- [Global Coral Reef Monitoring Network](https://gcrmn.net)  
+- [NOAA Coral Reef Watch](https://coralreefwatch.noaa.gov)  
